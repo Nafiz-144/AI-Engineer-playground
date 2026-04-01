@@ -1,7 +1,5 @@
-name="Nafiz"
-print("len",len(name))
-print( name[0:3])
-print(name[-3:-1])
-print(name[1:3])
-print(name[:4])
-print(name[3:])
+list=["Sadman","Islam","Nafiz"]
+i=0
+while i<len(list):
+   print(list[i])
+   i=i+1
