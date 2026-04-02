@@ -1,5 +1,5 @@
-list=["Sadman","Islam","Nafiz"]
-i=0
-while i<len(list):
-   print(list[i])
-   i=i+1
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+print(red)

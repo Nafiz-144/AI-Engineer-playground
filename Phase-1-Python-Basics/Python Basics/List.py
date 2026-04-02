@@ -38,3 +38,33 @@ print(list)
 # Remove the first item
 del(list(0))
 print(list)
+# Loop Through the Index Numbers (For loop)
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+#while loop
+list=["Sadman","Islam","Nafiz"]
+i=0
+while i<len(list):
+   print(list[i])
+   i=i+1
+
+#Looping Using List Comprehension
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for i in fruits:
+  if "ap" in i:
+    newlist.append(i)
+
+print(newlist)
+newlist=[x for x in fruits if "a" in x]#newlist = [expression for item in iterable if condition == True]
+print(newlist)
+
+# Sort Descending
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
